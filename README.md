@@ -63,7 +63,7 @@ curl -O https://raw.githubusercontent.com/my-digital-life/pihole/main/pihole-cen
 
 ## Want the newest OUI database?
 
-> If you want the actual up‑to‑date IEEE OUI list (fresh from the source), run:
+### If you want the actual up‑to‑date IEEE OUI list (fresh from the source), run:
 
 ```bash
 sudo wget -O /usr/share/ieee-data/oui.txt https://standards-oui.ieee.org/oui/oui.txt
