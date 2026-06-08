@@ -21,13 +21,14 @@ This provides a historical view of devices that have appeared on your network, i
 * Bash
 * SQLite access through `pihole-FTL sqlite3`
 * `column`, `sort`, `awk`, and standard GNU utilities
+* You need to type these commands in with your thumbs
 
 ## Usage
 
 ```bash
-nano pihole-network-inventory.sh
-chmod +x pihole-network-inventory.sh
-./pihole-network-inventory.sh
+nano pihole-census.sh
+chmod +x pihole-census.sh
+./pihole-census.sh
 ```
 
 The script reads data directly from `/etc/pihole/pihole-FTL.db` and does not modify the database.
