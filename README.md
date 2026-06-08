@@ -50,3 +50,15 @@ curl -O https://raw.githubusercontent.com/my-digital-life/pihole/main/pihole-cen
 ```
 
 > **Note:** This script must be run on a Pi-hole system and requires access to the Pi-hole FTL database (`/etc/pihole/pihole-FTL.db`).
+
+## Screenshots
+
+### Devices Seen (Grouped by MAC)
+
+![Devices Seen](https://raw.githubusercontent.com/my-digital-life/pihole/main/place/devices%20seen.png)
+
+### Hostnames Seen (Grouped by Hostname)
+
+![Hostnames Seen](https://raw.githubusercontent.com/my-digital-life/pihole/main/place/host%20names.png)
+
+
