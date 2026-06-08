@@ -61,3 +61,17 @@ curl -O https://raw.githubusercontent.com/my-digital-life/pihole/main/pihole-cen
 
 ![Hostnames Seen](https://raw.githubusercontent.com/my-digital-life/pihole/main/place/2-host%20names.png)
 
+## Want the newest OUI database?
+
+> If you want the actual up‑to‑date IEEE OUI list (fresh from the source), run:
+
+```bash
+sudo wget -O /usr/share/ieee-data/oui.txt https://standards-oui.ieee.org/oui/oui.txt
+```
+
+Then verify:
+
+```bash
+stat /usr/share/ieee-data/oui.txt
+```  
+You’ll see today’s date
