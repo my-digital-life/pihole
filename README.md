@@ -1,5 +1,3 @@
-# pihole
-
 # Pi-hole Network Inventory
 
 Pi-hole Network Inventory is a Bash script that extracts historical device information directly from the Pi-hole FTL database.
@@ -27,6 +25,7 @@ This provides a historical view of devices that have appeared on your network, i
 ## Usage
 
 ```bash
+nano pihole-network-inventory.sh
 chmod +x pihole-network-inventory.sh
 ./pihole-network-inventory.sh
 ```
@@ -50,6 +49,3 @@ curl -O https://raw.githubusercontent.com/my-digital-life/pihole/main/pihole-cen
 ```
 
 > **Note:** This script must be run on a Pi-hole system and requires access to the Pi-hole FTL database (`/etc/pihole/pihole-FTL.db`).
-
-```
-```
